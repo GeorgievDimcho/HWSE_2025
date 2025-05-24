@@ -7,15 +7,15 @@
 int main(int argc, char* argv[])
 {
     printf("You have entered %d arguments:\n", argc);
-
+   
     for (int i = 0; i < argc; i++) {
         printf("%s\n", argv[i]);
     }
-    getc(stdoin)
+    //getc(stdin);
 
     //printf("%d", strcmp(s1, s2));
     if(!strcmp(argv[1],"--help")) {
-        printf("help: \n");
+        printf("There is not help message programmed yet.\n");
     } else {
         printf("didn't work\n");
     }
